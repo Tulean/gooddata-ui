@@ -25,6 +25,10 @@
         "title": "Arithmetic Measure",
         "sidebar_label": "Arithmetic Measure"
       },
+      "attribute_element_option": {
+        "title": "AttributeElements Options",
+        "sidebar_label": "AttributeElements Component Options"
+      },
       "attribute_filter_component": {
         "title": "Attribute Filter",
         "sidebar_label": "Attribute Filter"

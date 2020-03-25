@@ -37,6 +37,7 @@
     ],
     "Properties": [
       "chart_config",
+      "attribute_element_option",
       "date_filter_option",
       "drillable_item",
       "error_component",
