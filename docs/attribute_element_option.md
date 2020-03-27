@@ -21,4 +21,4 @@ All top-level options are optional. You can use only those options that are rele
 | filter | false | string | The search keyword/phrase to look for in the value titles |
 | uris | false | string[] | The URIs of specific values to obtain; can be used to preload selected values in the attribute filter |
 | includeTotalCountWithoutFilters | false | boolean | When set to `true`, includes the total number of the values (without filters applied) in the response |
-| afm | false | [AFM](afm.md) | Filters valid elements |
+| afm | false | [AFM](afm.md) | The AMF that determines the values to return |
