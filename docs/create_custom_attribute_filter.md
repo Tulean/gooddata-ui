@@ -105,12 +105,12 @@ export class AttributeElementsExample extends Component {
 
 ## Properties
 
-> When passing props, please make sure to only pass either `uri` or `identifier`. However, `identifier` prop is preferred.
+> When passing props, pass either `identifier` or `uri`, not both. The `identifier` prop is preferred.
 
 | Name | Required? | Type | Description |
 | :--- | :--- | :--- | :--- |
 | projectId | true | string | The project ID |
 | sdk | false | SDK | A configuration object where you can define a custom domain and other API options |
-| uri | false | string | The attribute display form uri |
-| identifier | false | string | The attribute display form identifier |
+| uri | false | string | The attribute displayForm URI |
+| identifier | false | string | The attribute displayForm identifier |
 | options | false | [IValidElementsOptions](attribute_element_option.md) | Available options |
